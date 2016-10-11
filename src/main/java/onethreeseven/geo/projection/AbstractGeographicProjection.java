@@ -10,7 +10,7 @@ package onethreeseven.geo.projection;
  * @author luke
  * @version $Id$
  */
-abstract class AbstractGeographicProjection
+public abstract class AbstractGeographicProjection
 {
     final ProjectionLimits projectionLimits;
 
