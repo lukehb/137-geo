@@ -16,7 +16,7 @@ int utmZone = 1;
 p = new ProjectionUTM(1);
 //...and so on
 ```
-
+ [ ![Download](https://api.bintray.com/packages/lukehb/137-geo/137-geo/images/download.svg) ](https://bintray.com/lukehb/137-geo/137-geo/_latestVersion)
 
 You can use this project as a dependency like so:
 
@@ -26,6 +26,6 @@ repositories {
 }
 
 dependencies {
-    compile 'onethreeseven:geo:0.0.1'
+    compile 'onethreeseven:geo:0.0.2'
 }
 ```
