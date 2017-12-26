@@ -1,11 +1,12 @@
 package onethreeseven.geo.projection;
 
 /**
+ * <p>
  * Provides a Transverse Mercator ellipsoidal projection using the WGS84 ellipsoid.
  * The projection's central meridian may be specified and defaults to the Prime Meridian
  * (0 longitude). By default, the projection computes values for 30 degrees either side
  * of the central meridian. Large widths may fail.
- * <p/>
+ * </p>
  * The projection limits are modified to reflect the central meridian and the width,
  * however the projection limits are clamped to a minimum of -180 degrees and a
  * maximum of +180 degrees. It's therefore not possible to display a band whose central

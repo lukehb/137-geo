@@ -1,8 +1,9 @@
 package onethreeseven.geo.projection;
 
 /**
+ * <p>
  * Defines an interface to project geographic coordinates to Cartesian coordinates (and back again).
- * <p/>
+ * </p>
  * Each implementation of this interface defines its own constructors, which may accept arguments that completely define
  * the projection.
  *
@@ -19,8 +20,9 @@ public abstract class AbstractGeographicProjection
     }
 
     /**
+     * <p>
      * Converts a geographic position to meters in Cartesian coordinates.
-     * <p/>
+     * </p>
      * Note: The input arguments are not checked for <code>null</code> prior to being used. The caller
      * is expected do perform that check prior to calling this method.
      *
@@ -32,8 +34,9 @@ public abstract class AbstractGeographicProjection
     public abstract double[] geographicToCartesian(double latitude, double longitude);
 
     /**
+     * <p>
      * Converts a Cartesian point in meters to a geographic position.
-     * <p/>
+     * </p>
      * Note: The input arguments are not checked for <code>null</code> prior to being used. The caller
      * is expected do perform that check prior to calling this method.
      *
