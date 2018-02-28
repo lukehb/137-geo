@@ -26,6 +26,6 @@ repositories {
 }
 
 dependencies {
-    compile 'onethreeseven:geo:0.0.3'
+    compile 'onethreeseven:geo:0.0.4'
 }
 ```
