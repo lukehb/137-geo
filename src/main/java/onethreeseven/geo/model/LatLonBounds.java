@@ -104,6 +104,15 @@ public class LatLonBounds {
         );
     }
 
+    /**
+     * @return An array consisting of {centroidLat, centroidLon}.
+     */
+    public double[] getLatLonCentroid(){
+        double midLat = ((maxLat - minLat) * 0.5) + minLat;
+        double midLon = ((maxLon - minLon) * 0.5) + minLon;
+        return new double[]{midLat, midLon};
+    }
+
     public double getMinLat() {
         return minLat;
     }

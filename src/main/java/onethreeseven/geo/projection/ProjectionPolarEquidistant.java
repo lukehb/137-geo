@@ -60,4 +60,11 @@ public class ProjectionPolarEquidistant extends AbstractGeographicProjection {
     public boolean isSouthPole() {
         return isSouthPole;
     }
+
+    @Override
+    public String toString(){
+        return "PolarEquidistant";
+    }
+
+
 }

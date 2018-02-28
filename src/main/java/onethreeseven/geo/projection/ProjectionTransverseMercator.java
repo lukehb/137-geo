@@ -82,4 +82,9 @@ public class ProjectionTransverseMercator extends AbstractGeographicProjection {
                 centralMeridian, falseEasting, falseNorthing, scale);
     }
 
+    @Override
+    public String toString(){
+        return "TransverseMercator";
+    }
+
 }

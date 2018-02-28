@@ -68,4 +68,9 @@ public class ProjectionMercator extends AbstractGeographicProjection {
 
         return new double[]{lat, lon};
     }
+
+    @Override
+    public String toString(){
+        return "Mercator";
+    }
 }

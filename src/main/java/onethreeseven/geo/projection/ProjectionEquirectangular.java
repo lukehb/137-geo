@@ -35,4 +35,10 @@ public class ProjectionEquirectangular extends AbstractGeographicProjection {
                 Math.toDegrees((cart[0] - xOffset) / equatorialRadius)
         };
     }
+
+    @Override
+    public String toString(){
+        return "Equirectangular";
+    }
+
 }

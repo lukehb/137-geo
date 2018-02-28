@@ -106,4 +106,10 @@ public class ProjectionUPS extends AbstractGeographicProjection {
     public boolean isSouthPole() {
         return isSouthPole;
     }
+
+    @Override
+    public String toString(){
+        return "UPS";
+    }
+
 }

@@ -38,4 +38,10 @@ public class ProjectionModifiedSinusoidal extends AbstractGeographicProjection {
                 Math.toDegrees(lonRadians)
         };
     }
+
+    @Override
+    public String toString(){
+        return "ModifiedSinusoidal";
+    }
+
 }

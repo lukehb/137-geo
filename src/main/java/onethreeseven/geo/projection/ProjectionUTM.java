@@ -24,4 +24,10 @@ public class ProjectionUTM extends ProjectionTransverseMercator {
         }
         return (3 + (zone - 1) * 6) - (zone > 30 ? 360 : 0);
     }
+
+    @Override
+    public String toString(){
+        return "UTM";
+    }
+
 }
